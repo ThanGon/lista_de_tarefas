@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_const_constructors
+
 import 'package:flutter/material.dart';
 
 class TaskList extends StatelessWidget {
@@ -21,10 +23,11 @@ class TaskList extends StatelessWidget {
               ),
               SizedBox(width: 9,),
               ElevatedButton(
-                onPressed: null,
+                onPressed: () {},
                 child: Text('+'),
                 style: ElevatedButton.styleFrom(
-
+                  primary: Colors.red,
+                  padding: EdgeInsets.all(20),
                 ),
               ),
             ],
