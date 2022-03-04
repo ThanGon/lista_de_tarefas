@@ -16,7 +16,7 @@ class TaskList extends StatelessWidget {
             children: [
             TextField(
               controller: emailController,
-              decoration: const InputDecoration(
+              decoration: InputDecoration(
                 labelText: 'E-Mail',
                 hintText: 'exemplo@exemplo.com',
                 border: OutlineInputBorder(),
@@ -40,4 +40,8 @@ class TaskList extends StatelessWidget {
     print(feedback);
 
   }
+  /*
+  void onChanged(String text) {
+    print(text);
+  }*/
 }
